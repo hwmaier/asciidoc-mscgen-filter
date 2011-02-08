@@ -2,7 +2,7 @@ mscgen filter for AsciiDoc
 ==========================
 Author: Henrik Maier
 
-Version: 1.0
+Version: 1.1
 
 
 Introduction
@@ -76,8 +76,7 @@ Installation
 In addition to AsciiDoc you will need to have installed:
 
 - The mscgen command line utility (link:http://www.mcternan.me.uk/mscgen[]).
-  mscgen must be excutable from the command line or a local copy
-  present in the filter's directory.
+  mscgen must be excutable from the command line.
 
 
 The filter was developed and tested on Windows using mscgen 0.9
