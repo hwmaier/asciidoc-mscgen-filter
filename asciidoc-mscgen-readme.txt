@@ -79,8 +79,16 @@ In addition to AsciiDoc you will need to have installed:
   mscgen must be excutable from the command line.
 
 
-The filter was developed and tested on Windows using mscgen 0.9
+The filter was developed and tested on Windows using mscgen 0.21.
 and AsciiDoc 8.6.3.
+
+
+Known Issues
+------------
+
+If a version of mscgen earlier than 0.21 is used, SVGs are not sized correctly
+by FOP when producing PDFs as the width and height attribute are missing in
+the SVG file. Use PNG format with those earlier versions.
 
 
 Examples
