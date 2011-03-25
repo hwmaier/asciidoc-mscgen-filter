@@ -2,7 +2,7 @@ mscgen filter for AsciiDoc
 ==========================
 Author: Henrik Maier
 
-Version: 1.1
+Version: 1.2
 
 
 Introduction
@@ -86,7 +86,7 @@ and AsciiDoc 8.6.3.
 Known Issues
 ------------
 
-If a version of mscgen earlier than 0.21 is used, SVGs are not sized correctly
+If a version of mscgen earlier than 0.20 is used, SVGs are not sized correctly
 by FOP when producing PDFs as the width and height attribute are missing in
 the SVG file. Use PNG format with those earlier versions.
 
